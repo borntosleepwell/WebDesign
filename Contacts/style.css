@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(39deg, #262525, #000000);
+    color: #fff;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    backdrop-filter: blur(10px);
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 19px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #6037f3;
+}
+header {
+    text-align: center;
+    margin: 0 0 0 0; 
+    font-size: 30px;
+    font-weight: 500;
+}
+
+
+.contact {
+    color: #fff;
+}
+
+.us {
+    color: #6037f3;
+}
+
+.contacts-section {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.contacts-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.contacts-table th,
+.contacts-table td {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.contacts-table th {
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.contacts-table td a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.contacts-table tr:last-child td {
+    border-bottom: none;
+}
+
+.contacts-table td a i {
+    font-size: 16px;
+    color: #6037f3;
+}
+
+.contacts-table td a:hover i {
+    color: #fff;
+}

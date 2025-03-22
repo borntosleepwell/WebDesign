@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+.gambar {
+    position: absolute;
+    top: 100px;  /* Reduced from 133px */
+    left: 50%;
+    border-radius: 5px;
+    transform: translateX(-50%);
+    width: 900px;  /* Reduced from 1272px */
+    height: 400px;  /* Reduced from 516px */
+    object-fit: cover;
+    z-index: 1;
+}
+.am {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    height: 40px;
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-align: center;
+    z-index: 1000;
+}
+.time {
+    color: #ffffff;
+}
+
+.ampm {
+    color: #6037f3;
+    font-size: 37px;
+}
+.lorem-ipsum-dolor {
+    position: absolute;
+    top: 425px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px; 
+    font-family: Quicksand;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;  
+    height: 60px;  
+    z-index: 1000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.lorem-ipsum-dolor1 {
+    position: absolute;
+    top: 442px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 14px; 
+    font-family: Quicksand;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;  
+    height: 60px;  
+    z-index: 1000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Container cards */
+.homepage-child,
+.homepage-item,
+.homepage-inner {
+    position: absolute;
+    top: 520px;  /* Reduced from 684px */
+    border-radius: 18px;  /* Reduced from 25px */
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #606060;
+    box-sizing: border-box;
+    width: 255px;  /* Reduced from 380px */
+    height: 100px;  /* Reduced from 200px */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.homepage-child {
+    left: 50%;
+    transform: translateX(-50%) translateX(-320px);
+    background: url("./profile.png"); /* Add ./ to specify current directory */
+    background-size: cover; /* Ensure this is specified */
+    background-repeat: no-repeat; /* Prevent repeating */
+}
+
+.homepage-item {
+    left: 50%;
+    transform: translateX(-50%);
+    background: url("./gallery.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.homepage-inner {
+    left: 50%;
+    transform: translateX(-50%) translateX(320px);
+    background: url("./contact.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.homepage-child:hover {
+    box-shadow: 0 0 20px #ffffff86;
+}
+.homepage-item:hover{
+    box-shadow: 0 0 20px #ffffff86;
+}
+.homepage-inner:hover{
+    box-shadow: 0 0 20px #ffffff86;
+}
+.profile, .about-me, .socials {
+    position: relative;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;  /* Reduced from 65px */
+    font-size: 24px;  /* Added smaller font size */
+}
+.homepage {
+    width: 100%;
+    position: relative;
+    background: linear-gradient(223.62deg, #000, #262525);
+    height: 800px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+    font-family: Poppins;
+}
+
+.log-out{
+    color: #fff;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+    top:750px;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    position: absolute;
+    text-align: center;
+}
